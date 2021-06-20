@@ -31,8 +31,14 @@ if(isset($_POST["theParagraphs"]))
     $paragraph = $_POST["theParagraphs"];
 
 }*/
-$sentence = array();
+/*
+$word = array();
+$word = getWord();
+$sentence = implode($word);*/
+
 $sentence = getSentence();
+
+ //implode('', $sentence);
 
 ?>
 
@@ -44,11 +50,31 @@ $sentence = getSentence();
    
 <span id="sentence">
 <?php
+echo $sentence;
+//echo implode($word);
+/*
 foreach($sentence as $sen)
 {
     echo $sen;
 
-}
+}*/
+  //  echo $sentence;
+//echo var_dump($sentence);
+//echo implode('', $sentence);
+//echo json_encode($sentence);
+    //echo print_r($sentence);
+
+/*
+for($i = 0; $i < count($sentence); ++$i)
+{
+    echo $sentence[$i];
+}*/
+/*
+foreach($sentence as $sen)
+{
+    echo $sen;
+
+}*/
 ?>
 </span>
            
