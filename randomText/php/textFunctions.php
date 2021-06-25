@@ -24,13 +24,18 @@ function getWord()
 
 function getSentence()
 {
-    $wordsNumber = rand(12, 22);
+    $wordsNumber = rand(6, 20);
 
     $sentence = array();
 
     for($i = 0; $i < $wordsNumber; ++$i)
     {
         $word = getWord();
+
+        if($i == 0)
+        {
+            $word = ucfirst($word);
+        }
 
         array_push($sentence, $word);
 
@@ -40,7 +45,7 @@ function getSentence()
         }
         else
         {
-            array_push($sentence, '.');
+            array_push($sentence, '. ');
         }
     }
 
@@ -49,52 +54,41 @@ function getSentence()
     return $sentence2;
 }
 
-/*
-function getWord()
+
+function getParagraph()
 {
-    $lowerCase = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w'. 'x', 'y', 'z');
+    $numSentences = rand(3, 8);
 
-    $wordSize = rand(3, 10);
-    $word = array();
+    $paragraph = array();
 
-    for($i = 0; $i < $wordSize; ++$i)
+    for($i = 0; $i < $numSentences; ++$i)
     {
-        $alphabetLowerCase = rand(0, count($lowerCase)-1);
-
-        $letter = $lowerCase[$alphabetLowerCase];
-
-        array_push($word, $letter);
+        $sentence = getSentence();
+        
+        array_push($paragraph, $sentence);
+        array_push($paragraph, '&nbsp;');
     }
 
-    return $word;
+    $paragraph2 = implode($paragraph);
 
+    return $paragraph2;
 }
 
-function getSentence()
+
+function getRandomText($select)
 {
-    $wordsNumber = rand(12, 22);
+    $numPara = intval($select);
+    $textBlock = array();
 
-    $sentence = array();
-
-    for($i = 0; $i < $wordsNumber; ++$i)
+    for($i = 0; $i < $numPara; ++$i)
     {
-        $word = array();
-        $word = getWord();
+        $paragraph = getParagraph();
 
-        array_push($sentence, $word);
+        array_push($textBlock, $paragraph);
 
-        if($i < $wordsNumber-1)
-        {
-            array_push($sentence, ' ');
-        }
-        else
-        {
-            array_push($sentence, '.');
-        }
     }
 
-    return $sentence;
-}
-*/
+    return $textBlock;
 
+}
 ?>

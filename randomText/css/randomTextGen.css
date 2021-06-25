@@ -2,7 +2,6 @@
 body{
 	font-family: sans-serif;
 	font-size: 1.4em;
-	font-weight: bold;
 }
 
 
@@ -15,10 +14,11 @@ body{
 }
 
 
-#sentence{
+#textBlock{
     position:absolute;
     top: 180px;
     left: 40px;
-    width: 900px;
-	font-size: 0.85em;
+    width: 1000px;
+	font-size: 0.75em;
+    font-weight: normal;
 }

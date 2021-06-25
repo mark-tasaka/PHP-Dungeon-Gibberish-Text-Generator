@@ -25,20 +25,22 @@
 
 include 'php/textFunctions.php';
 
-/*
+
 if(isset($_POST["theParagraphs"]))
 {
-    $paragraph = $_POST["theParagraphs"];
+    $numberOfParagraphs = $_POST["theParagraphs"];
 
-}*/
+}
 /*
 $word = array();
 $word = getWord();
 $sentence = implode($word);*/
 
-$sentence = getSentence();
+//$sentence = getSentence();
+//$paragraph = getParagraph();
 
- //implode('', $sentence);
+$textBlock = array();
+$textBlock = getRandomText($numberOfParagraphs);
 
 ?>
 
@@ -48,33 +50,15 @@ $sentence = getSentence();
    <section>
 
    
-<span id="sentence">
+<span id="textBlock">
 <?php
-echo $sentence;
-//echo implode($word);
-/*
-foreach($sentence as $sen)
-{
-    echo $sen;
 
-}*/
-  //  echo $sentence;
-//echo var_dump($sentence);
-//echo implode('', $sentence);
-//echo json_encode($sentence);
-    //echo print_r($sentence);
-
-/*
-for($i = 0; $i < count($sentence); ++$i)
+foreach($textBlock as $text)
 {
-    echo $sentence[$i];
-}*/
-/*
-foreach($sentence as $sen)
-{
-    echo $sen;
+    echo $text . '<br/><br/>';
+}
 
-}*/
+
 ?>
 </span>
            
