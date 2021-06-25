@@ -4,6 +4,11 @@ Designed with PHP, the Dungeon Gibberish Text Generator is a Dungeon/Fantasy the
 
 -----------------
 
+Update 1.01: 2021-06-25
+
+Ability to generate random paragaphs of text; the number of paragraphs deteremined by the user's input.
+
+
 Update 1.01: 2021-06-20
 
 Add function that allows for the random generation of a sentences (use for testing purposes).
