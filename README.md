@@ -4,7 +4,12 @@ Designed with PHP, the Dungeon Gibberish Text Generator is a Dungeon/Fantasy the
 
 -----------------
 
-Update 1.01: 2021-06-25
+
+Update 1.03: 2021-06-27
+
+The completed version of DCC Dungeon Gibberish Test Generator added.
+
+Update 1.02: 2021-06-25
 
 Ability to generate random paragaphs of text; the number of paragraphs deteremined by the user's input.
 
