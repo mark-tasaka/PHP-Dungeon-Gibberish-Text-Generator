@@ -31,13 +31,7 @@ if(isset($_POST["theParagraphs"]))
     $numberOfParagraphs = $_POST["theParagraphs"];
 
 }
-/*
-$word = array();
-$word = getWord();
-$sentence = implode($word);*/
 
-//$sentence = getSentence();
-//$paragraph = getParagraph();
 
 $textBlock = array();
 $textBlock = getRandomText($numberOfParagraphs);
