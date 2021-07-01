@@ -5,6 +5,35 @@ Designed with PHP, the Dungeon Gibberish Text Generator is a Dungeon/Fantasy the
 -----------------
 
 
+Live versions of the Dungeon Gibberish Text Generators are available through the following links:
+
+Artifacts of the Ancient Ones:
+https://www.oldschooladventures.org/mcc/homebrew/text/
+
+Dwarves, Warriors and Mighty Deeds:
+https://www.oldschooladventures.org/dcc/homebrew/text/
+
+The Empire and the Elephant:
+https://www.oldschooladventures.org/east/more/text/
+
+Dungeon Crawl Classics Eastern Adventures:
+https://www.oldschooladventures.org/ea/homebrew/text/
+
+Fantastic Adventure & the Disgruntled Gong Farme:
+https://www.tasaka-games.com/dcc/more/text/
+
+Sorcery and Mighty Deeds:
+https://www.oldschooladventures.org/lankhmar/more/text/
+
+
+-----------------
+
+
+Update 1.05: 2021-07-01
+
+Alternative versions of the Dungeon Random Text Generator have been added to the newly created alternativeTextGen folder.  Links for the 'live versions' of the Random Text Generators have been added above.
+
+
 Update 1.04: 2021-06-30
 
 A launch page has been added for the Gibberish Text Generator.
