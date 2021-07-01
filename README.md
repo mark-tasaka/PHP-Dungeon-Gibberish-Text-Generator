@@ -19,7 +19,7 @@ https://www.oldschooladventures.org/east/more/text/
 Dungeon Crawl Classics Eastern Adventures:
 https://www.oldschooladventures.org/ea/homebrew/text/
 
-Fantastic Adventure & the Disgruntled Gong Farme:
+Fantastic Adventure & the Disgruntled Gong Farmer:
 https://www.tasaka-games.com/dcc/more/text/
 
 Sorcery and Mighty Deeds:
